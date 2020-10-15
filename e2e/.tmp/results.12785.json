@@ -1,0 +1,561 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Logowanie się do BSP",
+    "line": 1,
+    "id": "logowanie-się-do-bsp",
+    "tags": [],
+    "uri": "tests/cucumber/Feature/4. loginAsNewUser.feature",
+    "elements": [
+      {
+        "id": "logowanie-się-do-bsp;0.-bsp-login",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "0. BSP Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I open the Partner 6 DEMO page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3710000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "<loginTitle> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2566000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I provide \"bsp.ext.test4@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 342000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I provide \"1Ib7yI;1BML^\" in the <passInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on the <loginButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "<logoImage> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5471000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Tworzenie leada",
+    "line": 1,
+    "id": "tworzenie-leada",
+    "tags": [],
+    "uri": "tests/cucumber/Feature/5.CreateLead.feature",
+    "elements": [
+      {
+        "id": "tworzenie-leada;1.-enter-lead",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "1. Enter Lead",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I click on the <menuSales>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I click on the <salesLead>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 565000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "<addLeadButton> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3783000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "tworzenie-leada;2.-create-offer-from-lead",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "2. Create offer from lead",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I click on the <addLeadButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I wait for <domainInput> to be enable",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1950000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on the <domainInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I provide \"alfaelektro.pl\" in the <domainInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click on the <saveLead>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I wait for <createFirstOffer> to be enable",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12031000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I wait for <editFirstLead> to be enable",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Tworzenie oferty",
+    "line": 1,
+    "id": "tworzenie-oferty",
+    "tags": [],
+    "uri": "tests/cucumber/Feature/6.CreateOffer.feature",
+    "elements": [
+      {
+        "id": "tworzenie-oferty;4a-create-offer-obligo",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "4a Create offer obligo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I click on the <createFirstOffer>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "<offerPopUp> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12062000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on the <domainInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 31014000000,
+              "error_message": "TimeoutError: Wait timed out after 30037ms\n    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2201:17\n    at ManagedPromise.invokeCallback_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: <anonymous wait>\n    at scheduleWait (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n    at ControlFlow.wait (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n    at Driver.wait (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:159:41\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.waitFor (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:157:61)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:195:19\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.click (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:193:96)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/cucumber/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:63:21)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I provide \"sunrisesystem.pl\" in the <domainInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on the <saveOffer>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I wait for <createFirstContract> to be enable",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I wait for <editFirstOffer> to be enable",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on the <editFirstOffer>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "<domainInput> should be equal \"sunrisesystem.pl\"",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click on the <closeX>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "<offerTitle> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

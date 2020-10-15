@@ -1,0 +1,2724 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Logowanie się do BSP",
+    "line": 2,
+    "id": "logowanie-się-do-bsp",
+    "tags": [],
+    "uri": "tests/cucumber/Feature/13. Logowanie /001- uzywanie nieprawidłowych danych .feature",
+    "elements": [
+      {
+        "id": "logowanie-się-do-bsp;1.-visibility-elements",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "1. Visibility Elements",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1496000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "<logo> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "<loginInput> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "<nextPageButton> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I provide \"bsp.ext.test1@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 294000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 381000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "<backButton> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "<forgottenPassword> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "<passInput> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "<loginButton> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click on the <backButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;2.-login-with-wrong-login",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "2. Login with wrong login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1442000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I provide \"bsp.ext.test99@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I provide \"1Ib7yI;1BML^\" in the <passInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 246000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click on the <loginButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 333000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I click on the <wrongLoginMess>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 766000000,
+              "error_message": "TypeError: Cannot read property 'isPresent' of undefined\n    at ProtractorExpectedConditions.presenceOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:341:30)\n    at ProtractorExpectedConditions.visibilityOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:381:30)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:159:65\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.waitFor (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:157:61)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:195:19\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.click (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:193:96)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:70:21)\n    at Generator.next (<anonymous>)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;2.-login-with-wrong-login",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "2. Login with wrong login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1556000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1737000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I provide \"bsx.ext.test1@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 386000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I provide \"1Ib7yI;1BML^\" in the <passInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click on the <loginButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I click on the <wrongLoginMess>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1005000000,
+              "error_message": "TypeError: Cannot read property 'isPresent' of undefined\n    at ProtractorExpectedConditions.presenceOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:341:30)\n    at ProtractorExpectedConditions.visibilityOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:381:30)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:159:65\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.waitFor (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:157:61)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:195:19\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.click (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:193:96)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:70:21)\n    at Generator.next (<anonymous>)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;2.-login-with-wrong-login",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "2. Login with wrong login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1551000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1809000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I provide \"bsp.exx.test1@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I provide \"1Ib7yI;1BML^\" in the <passInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click on the <loginButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I click on the <wrongLoginMess>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 810000000,
+              "error_message": "TypeError: Cannot read property 'isPresent' of undefined\n    at ProtractorExpectedConditions.presenceOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:341:30)\n    at ProtractorExpectedConditions.visibilityOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:381:30)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:159:65\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.waitFor (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:157:61)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:195:19\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.click (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:193:96)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:70:21)\n    at Generator.next (<anonymous>)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;2.-login-with-wrong-login",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "2. Login with wrong login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1636000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2052000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I provide \"bsp.ext.test1@spix-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 268000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 388000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I provide \"1Ib7yI;1BML^\" in the <passInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click on the <loginButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I click on the <wrongLoginMess>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1000000000,
+              "error_message": "TypeError: Cannot read property 'isPresent' of undefined\n    at ProtractorExpectedConditions.presenceOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:341:30)\n    at ProtractorExpectedConditions.visibilityOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:381:30)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:159:65\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.waitFor (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:157:61)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:195:19\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.click (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:193:96)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:70:21)\n    at Generator.next (<anonymous>)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;2.-login-with-wrong-login",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "2. Login with wrong login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2255000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1787000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I provide \"bsp.ext.test1@spis-firx.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 367000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I provide \"1Ib7yI;1BML^\" in the <passInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click on the <loginButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I click on the <wrongLoginMess>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 755000000,
+              "error_message": "TypeError: Cannot read property 'isPresent' of undefined\n    at ProtractorExpectedConditions.presenceOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:341:30)\n    at ProtractorExpectedConditions.visibilityOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:381:30)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:159:65\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.waitFor (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:157:61)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:195:19\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.click (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:193:96)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:70:21)\n    at Generator.next (<anonymous>)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;2.-login-with-wrong-login",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "2. Login with wrong login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2419000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1879000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I provide \"bsp.ext.test1@spis-firm.bix\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I provide \"1Ib7yI;1BML^\" in the <passInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click on the <loginButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 347000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I click on the <wrongLoginMess>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 746000000,
+              "error_message": "TypeError: Cannot read property 'isPresent' of undefined\n    at ProtractorExpectedConditions.presenceOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:341:30)\n    at ProtractorExpectedConditions.visibilityOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:381:30)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:159:65\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.waitFor (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:157:61)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:195:19\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.click (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:193:96)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:70:21)\n    at Generator.next (<anonymous>)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;2.-checking-back-button",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "2. Checking Back Button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1793000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I provide \"bsp.ext.test1@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 283000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 386000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "<backButton> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "I click on the <backButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "<loginInput> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;4.-login-with-wrong-password",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "4. Login with wrong password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1089000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1846000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "I provide \"bsp.ext.test1@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 264000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 382000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "I provide \"aaaaaaaaaaa\" in the <passInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "I click on the <loginButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "<wrongPassMessage> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1484000000,
+              "error_message": "NoSuchElementError: No element found using locator: by.repeater(\"error in vm.errors\")\n    at elementArrayFinder.getWebElements.then (/usr/lib/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error: \n    at ElementArrayFinder.applyAction_ (/usr/lib/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (/usr/lib/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as isDisplayed] (/usr/lib/node_modules/protractor/built/element.js:831:22)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:96\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.isVisible (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:81)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:126:28)\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:110:16)\n    at SharedSteps.isVisible (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:112:24)\n    at World.bindingFunc (/home/piotrchit/Pulpit/BSP/e2e/node_modules/cucumber-tsflow/src/binding-decorator.ts:172:22)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;4.-login-with-wrong-password",
+        "keyword": "Scenario",
+        "line": 63,
+        "name": "4. Login with wrong password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1604000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1776000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "I provide \"bsp.ext.test1@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 425000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "I provide \"123456789012\" in the <passInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "I click on the <loginButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 358000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "<wrongPassMessage> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1176000000,
+              "error_message": "NoSuchElementError: No element found using locator: by.repeater(\"error in vm.errors\")\n    at elementArrayFinder.getWebElements.then (/usr/lib/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error: \n    at ElementArrayFinder.applyAction_ (/usr/lib/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (/usr/lib/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as isDisplayed] (/usr/lib/node_modules/protractor/built/element.js:831:22)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:96\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.isVisible (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:81)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:126:28)\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:110:16)\n    at SharedSteps.isVisible (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:112:24)\n    at World.bindingFunc (/home/piotrchit/Pulpit/BSP/e2e/node_modules/cucumber-tsflow/src/binding-decorator.ts:172:22)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;4.-login-with-wrong-password",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "4. Login with wrong password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1545000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "I provide \"bsp.ext.test1@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "I provide \"asdfgh123456\" in the <passInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "I click on the <loginButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "<wrongPassMessage> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1180000000,
+              "error_message": "NoSuchElementError: No element found using locator: by.repeater(\"error in vm.errors\")\n    at elementArrayFinder.getWebElements.then (/usr/lib/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error: \n    at ElementArrayFinder.applyAction_ (/usr/lib/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (/usr/lib/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as isDisplayed] (/usr/lib/node_modules/protractor/built/element.js:831:22)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:96\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.isVisible (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:81)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:126:28)\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:110:16)\n    at SharedSteps.isVisible (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:112:24)\n    at World.bindingFunc (/home/piotrchit/Pulpit/BSP/e2e/node_modules/cucumber-tsflow/src/binding-decorator.ts:172:22)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;5.-login-with-empty-login-and-visibility-of-validation-message:-to-pole-jest-wymagane!",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "5. Login with empty login and visibility of Validation Message: To pole jest wymagane!",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1631000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1973000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "<loginToPoleJestWymagane> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 250000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;6.-login-with-empty-password-and-visibility-of-validation-message:-to-pole-jest-wymagane!",
+        "keyword": "Scenario",
+        "line": 72,
+        "name": "6. Login with empty password and visibility of Validation Message: To pole jest wymagane!",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1755000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1716000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 74,
+            "name": "I provide \"bsp.ext.test1@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 278000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 75,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 390000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "I click on the <passInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "I click on the <loginButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "<passToPoleJestWymagane> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 344000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;7.-login-field---checking-email-xx@xx-validation",
+        "keyword": "Scenario",
+        "line": 90,
+        "name": "7. login field - checking email XX@XX validation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1958000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 82,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1965000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "I provide \"bsp.ext.test1 @spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 84,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "<loginValidation> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 33000000,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, form[name=\"vm.loginForm\"]>div:nth-of-type(2)>div:nth-of-type(1)>div)\n    at elementArrayFinder.getWebElements.then (/usr/lib/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error: \n    at ElementArrayFinder.applyAction_ (/usr/lib/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (/usr/lib/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as isDisplayed] (/usr/lib/node_modules/protractor/built/element.js:831:22)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:96\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.isVisible (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:81)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:126:28)\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:110:16)\n    at SharedSteps.isVisible (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:112:24)\n    at World.bindingFunc (/home/piotrchit/Pulpit/BSP/e2e/node_modules/cucumber-tsflow/src/binding-decorator.ts:172:22)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;7.-login-field---checking-email-xx@xx-validation",
+        "keyword": "Scenario",
+        "line": 91,
+        "name": "7. login field - checking email XX@XX validation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1754000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 82,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1675000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "I provide \"bsp.ext.test1spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 268000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 84,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 365000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "<loginValidation> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 244000000,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, form[name=\"vm.loginForm\"]>div:nth-of-type(2)>div:nth-of-type(1)>div)\n    at elementArrayFinder.getWebElements.then (/usr/lib/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error: \n    at ElementArrayFinder.applyAction_ (/usr/lib/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (/usr/lib/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as isDisplayed] (/usr/lib/node_modules/protractor/built/element.js:831:22)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:96\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.isVisible (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:81)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:126:28)\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:110:16)\n    at SharedSteps.isVisible (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:112:24)\n    at World.bindingFunc (/home/piotrchit/Pulpit/BSP/e2e/node_modules/cucumber-tsflow/src/binding-decorator.ts:172:22)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;7.-login-field---checking-email-xx@xx-validation",
+        "keyword": "Scenario",
+        "line": 92,
+        "name": "7. login field - checking email XX@XX validation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 82,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "I provide \"bsp.ext.test1@\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 84,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "<loginValidation> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 251000000,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, form[name=\"vm.loginForm\"]>div:nth-of-type(2)>div:nth-of-type(1)>div)\n    at elementArrayFinder.getWebElements.then (/usr/lib/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error: \n    at ElementArrayFinder.applyAction_ (/usr/lib/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (/usr/lib/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as isDisplayed] (/usr/lib/node_modules/protractor/built/element.js:831:22)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:96\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.isVisible (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:81)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:126:28)\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:110:16)\n    at SharedSteps.isVisible (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:112:24)\n    at World.bindingFunc (/home/piotrchit/Pulpit/BSP/e2e/node_modules/cucumber-tsflow/src/binding-decorator.ts:172:22)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;7.-login-field---checking-email-xx@xx-validation",
+        "keyword": "Scenario",
+        "line": 93,
+        "name": "7. login field - checking email XX@XX validation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 82,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1543000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "I provide \"@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 84,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "<loginValidation> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 248000000,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, form[name=\"vm.loginForm\"]>div:nth-of-type(2)>div:nth-of-type(1)>div)\n    at elementArrayFinder.getWebElements.then (/usr/lib/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error: \n    at ElementArrayFinder.applyAction_ (/usr/lib/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (/usr/lib/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as isDisplayed] (/usr/lib/node_modules/protractor/built/element.js:831:22)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:96\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.isVisible (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:81)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:126:28)\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:110:16)\n    at SharedSteps.isVisible (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:112:24)\n    at World.bindingFunc (/home/piotrchit/Pulpit/BSP/e2e/node_modules/cucumber-tsflow/src/binding-decorator.ts:172:22)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;8.-login-field---checking-email-xx@xx-validation",
+        "keyword": "Scenario",
+        "line": 95,
+        "name": "8. login field - checking email XX@XX validation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1432000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 96,
+            "name": "I click on the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2050000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 97,
+            "name": "I provide \"bsp.ext.test1\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 98,
+            "name": "<loginValidation> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 237000000,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, form[name=\"vm.loginForm\"]>div:nth-of-type(2)>div:nth-of-type(1)>div)\n    at elementArrayFinder.getWebElements.then (/usr/lib/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error: \n    at ElementArrayFinder.applyAction_ (/usr/lib/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (/usr/lib/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as isDisplayed] (/usr/lib/node_modules/protractor/built/element.js:831:22)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:96\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.isVisible (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:81)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:126:28)\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:110:16)\n    at SharedSteps.isVisible (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:112:24)\n    at World.bindingFunc (/home/piotrchit/Pulpit/BSP/e2e/node_modules/cucumber-tsflow/src/binding-decorator.ts:172:22)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 100,
+            "name": "I provide \"bsp.ext.test1@\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 101,
+            "name": "<loginValidation> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 103,
+            "name": "I provide \"bsp.ext.test1@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 104,
+            "name": "<loginValidation> is not visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;9-forgotten-password",
+        "keyword": "Scenario",
+        "line": 106,
+        "name": "9 Forgotten Password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1671000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 107,
+            "name": "I provide \"bsp.ext.test1@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 108,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 433000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 109,
+            "name": "I click on the <forgottenPassword>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 319000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 110,
+            "name": "<forgottenPasswordPopUp> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 112,
+            "name": "I click on the <noButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30715000000,
+              "error_message": "TimeoutError: Wait timed out after 30006ms\n    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2201:17\n    at ManagedPromise.invokeCallback_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: <anonymous wait>\n    at scheduleWait (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n    at ControlFlow.wait (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n    at Driver.wait (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:159:41\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.waitFor (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:157:61)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:195:19\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.click (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:193:96)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:70:21)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 113,
+            "name": "<passInput> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 114,
+            "name": "I click on the <forgottenPassword>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 115,
+            "name": "<forgottenPasswordPopUp> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 116,
+            "name": "I click on the <yesButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 117,
+            "name": "<sendResetPasswordMessage> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "logowanie-się-do-bsp;10-login-and-logout",
+        "keyword": "Scenario",
+        "line": 120,
+        "name": "10 Login and logout",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2486000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 121,
+            "name": "I provide \"bsp.ext.test1@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2630000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 122,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 380000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 123,
+            "name": "I provide \"1Ib7yI;1BML^\" in the <passInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 124,
+            "name": "I click on the <loginButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 307000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 125,
+            "name": "<logoImage> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6596000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 126,
+            "name": "I click on the <userMenu>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 127,
+            "name": "I click on the <logout>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 128,
+            "name": "<loginInput> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3299000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 129,
+            "name": "I provide \"Pomyslnie wylogowano\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

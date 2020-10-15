@@ -1,0 +1,133 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Logowanie się do BSP",
+    "line": 1,
+    "id": "logowanie-się-do-bsp",
+    "tags": [],
+    "uri": "tests/cucumber/Feature/1.004-Uprawnienie P_S_M/1.Login.feature",
+    "elements": [
+      {
+        "id": "logowanie-się-do-bsp;0.-bsp-login",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "0. BSP Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7404000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I provide \"bsp.ext.test4@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2563000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 375000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I provide \"1Ib7yI;1BML^1Ib7yI;1BML^\" in the <passInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on the <loginButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "<logoImage> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9318000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

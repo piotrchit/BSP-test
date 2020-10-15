@@ -1,0 +1,403 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Logowanie się do BSP",
+    "line": 1,
+    "id": "logowanie-się-do-bsp",
+    "tags": [],
+    "uri": "tests/cucumber/Feature/1.003-Dodawanie adresów Partnera/1.Login.feature",
+    "elements": [
+      {
+        "id": "logowanie-się-do-bsp;0.-bsp-login",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "0. BSP Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open the BSP TEST page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2414000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I provide \"bsp.ext.test4@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2546000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I provide \"1Ib7yI;1BML^\" in the <passInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 220000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on the <loginButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 364000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "<logoImage> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5333000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Choose partner",
+    "line": 1,
+    "id": "choose-partner",
+    "tags": [],
+    "uri": "tests/cucumber/Feature/1.003-Dodawanie adresów Partnera/2.Choose Partner.feature",
+    "elements": [
+      {
+        "id": "choose-partner;1.-enter-partner-adres-menu",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "1. Enter Partner Adres Menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "<panelSettings> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on the <panelSettings>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on the <vievPartnerAdress>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 335000000,
+              "error_message": "TypeError: Cannot read property 'isPresent' of undefined\n    at ProtractorExpectedConditions.presenceOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:341:30)\n    at ProtractorExpectedConditions.visibilityOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:381:30)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:159:65\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.waitFor (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:157:61)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:195:19\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.click (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:193:96)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:66:21)\n    at Generator.next (<anonymous>)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "<adressTitle> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "choose-partner;2.-choose-partner",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "2. Choose Partner",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click on the <partnerList>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3545000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on the <sunSPartner>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "<companyFullName> should be equal \"Sunrise System Wrocław\"",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2000000,
+              "error_message": "TypeError: Cannot read property 'getAttribute' of undefined\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:206:24\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.isEqual (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:205:94)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:132:28)\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/BSP/e2e/node_modules/tslib/tslib.js:110:16)\n    at SharedSteps.shouldBeEqual (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:119:24)\n    at World.bindingFunc (/home/piotrchit/Pulpit/BSP/e2e/node_modules/cucumber-tsflow/src/binding-decorator.ts:172:22)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "choose-partner;2.-choose-partner",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "2. Choose Partner",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click on the <partnerList>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on the <bauerPartner>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 452000000,
+              "error_message": "TypeError: Cannot read property 'isPresent' of undefined\n    at ProtractorExpectedConditions.presenceOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:341:30)\n    at ProtractorExpectedConditions.visibilityOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:381:30)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:159:65\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.waitFor (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:157:61)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:195:19\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.click (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:193:96)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:66:21)\n    at Generator.next (<anonymous>)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "<companyFullName> should be equal \"Bauer Client\"",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

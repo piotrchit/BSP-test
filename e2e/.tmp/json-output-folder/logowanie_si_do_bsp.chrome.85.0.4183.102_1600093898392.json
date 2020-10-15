@@ -1,0 +1,157 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Logowanie się do BSP",
+    "line": 1,
+    "id": "logowanie-się-do-bsp",
+    "tags": [],
+    "uri": "tests/cucumber/Feature/4. loginAsNewUser.feature",
+    "elements": [
+      {
+        "id": "logowanie-się-do-bsp;0.-bsp-login",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "0. BSP Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I open the Partner 6 DEMO page",
+            "match": {
+              "location": "tests/cucumber/Feature/Step_Defination/shared.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1850000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "<loginTitle> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2254000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I provide \"bsp.ext.test4@spis-firm.biz\" in the <loginInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 313000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on the <nextPageButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 381000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I provide \"1Ib7yI;1BML^\" in the <passInput>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on the <loginButton>",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 356000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "<logoImage> is visible",
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5183000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "85.0.4183.102"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

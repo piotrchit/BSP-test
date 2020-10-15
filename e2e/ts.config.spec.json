@@ -1,0 +1,20 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+      "outDir": "../out-tsc/spec",
+      "allowJs": true,
+      "types": [
+        "jest",
+        "jasmine",
+        "node"
+      ],
+      "module": "commonjs"
+    },
+    "files": [
+      "polyfills.ts"
+    ],
+    "include": [
+      "**/*.spec.ts",
+      "**/*.d.ts"
+    ]
+  }
