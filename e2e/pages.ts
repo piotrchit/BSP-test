@@ -20,18 +20,19 @@ export namespace Pages {
     export const logo: ElementFinder = element(by.css('img'));
 
     // Validation Message     
-    export const wrongPassMess: ElementFinder = element(by.xpath("[ng-if='vm.error']"));
+    export const wrongPassMess: ElementFinder = element(by.css("[ng-if='vm.error']"));
    
     export const wrongLoginMesage: ElementFinder = element(by.css("[ng-if='vm.error']"));
     export const loginToPoleJestWymagane: ElementFinder = element(by.className('invalid-feedback'));
     export const passToPoleJestWymagane: ElementFinder = element(by.className('invalid-feedback'));
     export const loginValidation: ElementFinder = element(by.css('form[name="vm.loginForm"]>div:nth-of-type(2)>div:nth-of-type(1)>div'));
     export const sendResetPasswordMessage: ElementFinder = element(by.xpath('//div[contains(text(), "Na Twój adres e-mail została wysłana wiadomość umożliwiająca ustawienie nowego hasła")]'));
-
+    export const passSendMess: ElementFinder = element(by.css('.alert'));
     //Pop up elements
     export const forgottenPasswordPopUp: ElementFinder = element(by.css('confirm-modal>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)'));
-    export const noButton: ElementFinder = element(by.css('.btn-danger'));
-    export const yesButton: ElementFinder = element(by.css("button[ng-click='vm.factory._modal.response(true)']"));
+    export const cancelSending: ElementFinder = element(by.css('confirm-modal>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>button:nth-of-type(1)'));
+    export const sendPassButton: ElementFinder = element(by.css('confirm-modal>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>button:nth-of-type(2)'));
+    
     export const logoImage: ElementFinder = element(by.css('app-header>nav>div:nth-of-type(1)>div:nth-of-type(1)>ul>li:nth-of-type(2)>a:nth-of-type(1)>img'))
 
     //Pass expired
@@ -55,7 +56,7 @@ export namespace Pages {
     export const salesOffer: ElementFinder = element(by.css(".menu-item[ui-sref='leads.offers']"));
     export const salesContract: ElementFinder = element(by.css("a[ui-sref='leads.contracts']"));
     export const salesAudit: ElementFinder = element(by.css("a[ui-sref='leads.audits']"));
-    export const accounts: ElementFinder = element(by.css("a[ui-sref='clients'] > .menu-title"));
+   
     export const dashboard: ElementFinder = element(by.css("a[ui-sref='home']"));
     export const communication: ElementFinder = element(by.css("a[ui-sref='mails'] > .menu-title"));
     export const orders: ElementFinder = element(by.css("a[ui-sref='contracts'] > .menu-title"));
@@ -65,6 +66,17 @@ export namespace Pages {
     export const panelSettings: ElementFinder = element(by.css("a[ui-sref='panelSettings'] > .menu-title"));
     export const refreshPage: ElementFinder = element(by.css(".fa-sync"));
     export const chooseLanguage: ElementFinder = element(by.css("li.dropdown-language > .dropdown-toggle > .flag-icon"));
+
+    //acounts
+    export const accounts: ElementFinder = element(by.css("a[ui-sref='clients'] > .menu-title"));
+    // export const addNewClient: ElementFinder = element(by.css('clients-list>div:nth-of-type(1)>div:nth-of-type(1)>button'));
+    // export const addNewClient: ElementFinder = element(by.className('btn btn-primary btn-sm'));
+    export const addNewClient: ElementFinder = element(by.xpath('body/app-private-root[1]/div[1]/div[1]/div[1]/ui-view[1]/clients-list[1]/div[1]/div[1]/button[1]'));
+
+    // export const addNewClient: ElementFinder = element(by.css('.btn-primary'));
+    
+    
+        export const newClientTitle: ElementFinder =element(by.css("form[name='vm.clientForm'] .modal-title"));
 
     //Elements
     export const leadsTitle: ElementFinder = element(by.css('.card-title'));
@@ -164,7 +176,7 @@ export namespace Pages {
     export const partnerDomain: ElementFinder = element(by.css("a[ui-sref='panelSettings.config.domains']"));
     export const advConfTitle: ElementFinder = element(by.xpath("//small[.='Advanced configuration']"));
     export const platformMenu: ElementFinder = element(by.css('card-collapse:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>h4>card-title'));
-    export const partnerDomainInput: ElementFinder = element(by.css('form[name="vm.domainForm0"]>fieldset:nth-of-type(1)>input[ng-model="field.name"]'))
+    export const partnerDomainInput: ElementFinder = element(by.css("//input[@class='form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required']"))
     export const vievPartnerAdress: ElementFinder = element(by.xpath("//a[.='Addresses']"));
     export const adressTitle: ElementFinder = element(by.css("partner-addresses[addresses='::$resolve.addresses'] > .row > div:nth-of-type(1) .card-title"));
     export const partnerCompanyName: ElementFinder = element(by.css("input[ng-model='vm.address.fullName']"));
@@ -236,8 +248,15 @@ export namespace Pages {
     export const closeX: ElementFinder = element(by.css("form[name='vm.addDocumentForm'] [aria-hidden='true']"));
     export const saveLead: ElementFinder = element(by.css("button[type='submit']"));
     export const cancelLeadPopUp: ElementFinder = element(by.css('confirm-modal>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)'));
-    export const yesCancelButton: ElementFinder = element(by.css("button[ng-click='vm.factory._modal.response(true)']"));
-    export const noCancelButton: ElementFinder = element(by.css('.btn-danger'));
+    export const yesCancelLeadButton: ElementFinder = element(by.css('[ng-click*=vm.factory._modal.response(false)]'));
+     export const noCancelLeadButton: ElementFinder = element(by.css('[ng-click*=vm.factory._modal.response(true)]'));
+    // export const showFirstLeadActions: ElementFinder = element(by.cssContainingText('.pet', 'Dog'));
+    export const leadPartnerList: ElementFinder = 
+    element(by.css("extended-select[required='required'] .text-nowrap > .text-nowrap"));
+    export const chooseSunS: ElementFinder = element(by.css(".show.dropdown-menu > a:nth-of-type(1) > [label='o.label']"));
+
+    export const showFirstLeadActions: ElementFinder = element(by.css('tbody>tr:nth-of-type(1)>td:nth-of-type(8)'));
+    
     export const createFirstOffer: ElementFinder = element(by.css("tbody > tr:nth-of-type(1) [ui-sref='leads.offers({add: d.id})'] > .fas"));
     export const editFirstLead: ElementFinder = element(by.css('tbody > tr:nth-of-type(1) .primary > .fas'));
 

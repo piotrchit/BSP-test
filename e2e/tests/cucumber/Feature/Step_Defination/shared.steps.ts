@@ -21,6 +21,14 @@ Given(/^I open the BSP TEST page$/, {timeout: 2 * 5000}, async () => {
 Given(/^I open the Partner 1 TEST page$/, {timeout: 2 * 5000}, async () => {
     await browser.get('https://partner1.test.bauerseo.pl/');
  });
+ 
+ Given(/^I open the Partner 2 TEST page$/, {timeout: 2 * 5000}, async () => {
+    await browser.get('https://partner2.test.bauerseo.pl/');
+ });
+ 
+ Given(/^I open the Partner 3 TEST page$/, {timeout: 2 * 5000}, async () => {
+    await browser.get('https://partner3.test.bauerseo.pl/');
+ });
 
 Given(/^I open the Partner 1 DEMO page$/, {timeout: 2 * 5000}, async () => {
     await browser.get('https://partner1.demo.bauerseo.pl/');

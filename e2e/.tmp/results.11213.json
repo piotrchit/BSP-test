@@ -36,7 +36,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2273000000
+              "duration": 8349000000
             }
           },
           {
@@ -49,7 +49,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2191000000
+              "duration": 2740000000
             }
           },
           {
@@ -62,47 +62,45 @@
             },
             "result": {
               "status": "passed",
-              "duration": 375000000
+              "duration": 387000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 10,
-            "name": "I provide \"1Ib7yI;1BML^\" in the <passInput>",
+            "name": "I provide \"\" in the <>",
             "match": {
               "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
             },
             "result": {
-              "status": "passed",
-              "duration": 241000000
+              "status": "failed",
+              "duration": 760000000,
+              "error_message": "TypeError: Cannot read property 'isPresent' of undefined\n    at ProtractorExpectedConditions.presenceOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:341:30)\n    at ProtractorExpectedConditions.visibilityOf (/usr/lib/node_modules/protractor/built/expectedConditions.js:381:30)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:159:65\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.waitFor (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:157:61)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:176:19\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.setInputValue (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:174:119)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP Testy/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:75:21)\n    at Generator.next (<anonymous>)"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 11,
-            "name": "I click on the <loginButton>",
+            "name": "I click on the <>",
             "match": {
               "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
             },
             "result": {
-              "status": "passed",
-              "duration": 352000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 12,
-            "name": "<wrongLoginMess> is visible",
+            "name": "<> is visible",
             "match": {
               "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
             },
             "result": {
-              "status": "failed",
-              "duration": 29000000,
-              "error_message": "TypeError: Cannot read property 'isDisplayed' of undefined\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:96\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.isVisible (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:208:81)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP Testy/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:126:28)\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/BSP Testy/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/BSP Testy/e2e/node_modules/tslib/tslib.js:110:16)\n    at SharedSteps.isVisible (/home/piotrchit/Pulpit/BSP Testy/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:112:24)\n    at World.bindingFunc (/home/piotrchit/Pulpit/BSP Testy/e2e/node_modules/cucumber-tsflow/src/binding-decorator.ts:172:22)"
+              "status": "skipped"
             }
           },
           {
@@ -124,7 +122,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           }
         ]
@@ -145,7 +143,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -158,12 +156,12 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1254000000
+              "duration": 2724000000
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
+            "keyword": "And ",
             "line": 15,
             "name": "I click on the <forgottenPassword>",
             "match": {
@@ -171,8 +169,8 @@
             },
             "result": {
               "status": "failed",
-              "duration": 30441000000,
-              "error_message": "TimeoutError: Wait timed out after 30016ms\n    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2201:17\n    at ManagedPromise.invokeCallback_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: <anonymous wait>\n    at scheduleWait (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n    at ControlFlow.wait (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n    at Driver.wait (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:159:41\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.waitFor (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:157:61)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:195:19\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.click (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:193:96)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP Testy/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:70:21)"
+              "duration": 30178000000,
+              "error_message": "TimeoutError: Wait timed out after 30022ms\n    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2201:17\n    at ManagedPromise.invokeCallback_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: <anonymous wait>\n    at scheduleWait (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2188:20)\n    at ControlFlow.wait (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2517:12)\n    at Driver.wait (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:934:29)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:159:41\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.waitFor (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:157:61)\n    at /home/piotrchit/Pulpit/cucumber/e2e/utils.ts:195:19\n    at Generator.next (<anonymous>)\n    at /home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:114:75\n    at new Promise (<anonymous>)\n    at Object.__awaiter (/home/piotrchit/Pulpit/cucumber/e2e/node_modules/tslib/tslib.js:110:16)\n    at Object.Utils.click (/home/piotrchit/Pulpit/cucumber/e2e/utils.ts:193:96)\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP Testy/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:70:21)"
             }
           },
           {
@@ -309,7 +307,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -322,7 +320,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 312000000
+              "duration": 305000000
             }
           },
           {
@@ -335,7 +333,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 366000000
+              "duration": 376000000
             }
           },
           {
@@ -348,7 +346,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 228000000
+              "duration": 217000000
             }
           },
           {
@@ -361,7 +359,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 330000000
+              "duration": 372000000
             }
           },
           {
@@ -373,8 +371,9 @@
               "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
             },
             "result": {
-              "status": "passed",
-              "duration": 8247000000
+              "status": "failed",
+              "duration": 6425000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -false\n    +true\n\n    at SharedSteps.<anonymous> (/home/piotrchit/Pulpit/BSP Testy/e2e/tests/cucumber/Feature/Step_Defination/shared.steps.ts:126:60)\n    at Generator.next (<anonymous>)\n    at fulfilled (/home/piotrchit/Pulpit/BSP Testy/e2e/node_modules/tslib/tslib.js:111:62)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
             }
           },
           {
@@ -386,8 +385,7 @@
               "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
             },
             "result": {
-              "status": "passed",
-              "duration": 128000000
+              "status": "skipped"
             }
           },
           {
@@ -399,8 +397,7 @@
               "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
             },
             "result": {
-              "status": "passed",
-              "duration": 131000000
+              "status": "skipped"
             }
           },
           {
@@ -412,8 +409,7 @@
               "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
             },
             "result": {
-              "status": "passed",
-              "duration": 2731000000
+              "status": "skipped"
             }
           },
           {
@@ -425,8 +421,7 @@
               "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:191"
             },
             "result": {
-              "status": "passed",
-              "duration": 225000000
+              "status": "skipped"
             }
           },
           {
@@ -438,8 +433,7 @@
               "location": "node_modules/cucumber-tsflow/src/binding-decorator.ts:201"
             },
             "result": {
-              "status": "passed",
-              "duration": 251000000
+              "status": "skipped"
             }
           },
           {
@@ -461,7 +455,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           }
         ]

@@ -4,8 +4,7 @@ exports.config = {
     baseUrl: 'http://test.bauerseo.pl/',
     getPageTimeout: 50000,
     allScriptsTimeout: 50000,
-    framework: 'custom', // set to "custom" instead of cucumber.
-    // path relative to the current config file
+    framework: 'custom', 
     frameworkPath: require.resolve('protractor-cucumber-framework'),
     multiCapabilities: [
       {
@@ -20,6 +19,7 @@ exports.config = {
       //     args: [ '--start-maximized',
       //     // '--headless'
       //  ]},
+
       'browserName': 'chrome',
       trustAllSSLCertificates: true,
       acceptInsecureCerts: true,
@@ -52,7 +52,7 @@ exports.config = {
    
 
     onPrepare: function () {
-      browser.manage().window().maximize(); // maximize the browser before executing the feature files
+      browser.manage().window().maximize();
       
       require('ts-node').register({
         project: require('path').join(__dirname, './tsconfig.json')

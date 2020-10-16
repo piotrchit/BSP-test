@@ -1,7 +1,11 @@
 Feature: Logowanie się do BSP
     Background: Open Page and load content
         Given I open the Partner 1 TEST page
-  
+    # Given I open the Partner 1 TEST page
+    # Given I open the Partner 2 TEST page
+    # Given I open the Partner 3 TEST page
+
+
     Scenario Outline: 0. BSP Login
         Then <loginTitle> is visible
         When I provide "<loginInputValue>" in the <loginInput>
