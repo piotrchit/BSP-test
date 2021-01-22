@@ -44,7 +44,7 @@ exports.config = {
     cucumberOpts: {
       require: 'tests/cucumber/Feature/Step_Defination/shared.steps.ts',
       tags: false,
-      // format: ['pretty'],
+      format: ['pretty'],
       format: "json:.tmp/results.json",
       profile: false,
       'no-source': true
@@ -59,13 +59,13 @@ exports.config = {
       })
     },
  
-  //   plugins: [
-  //     {package: require.resolve('protractor-simple-cucumber-html-reporter-plugin'),
-  //       // package: "",
-  //       options: {
-  //         automaticallyGenerateReport: true,
-  //         removeExistingJsonReportFile: true
-  //       }
-  //     }
-  //   ]
+    // plugins: [
+    //   {package: require.resolve('protractor-simple-cucumber-html-reporter-plugin'),
+    //     // package: "",
+    //     options: {
+    //       automaticallyGenerateReport: true,
+    //       removeExistingJsonReportFile: true
+    //     }
+    //   }
+    // ]
   };
